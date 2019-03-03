@@ -1,7 +1,7 @@
 {
   "name": "dotup-ts-node-skills-serializable-lists",
-  "version": "0.0.16",
-  "description": "Persistence for node skills",
+  "version": "0.0.1",
+  "description": "Serializable list for node skills",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -23,8 +23,9 @@
     "typescript",
     "alexa",
     "skill",
-    "dynamodb",
-    "persistence"
+    "serializable",
+    "session",
+    "list"
   ],
   "author": "Peter Ullrich",
   "license": "MIT",
@@ -37,16 +38,16 @@
     "dotup-ts-logger": "^0.0.13"
   },
   "peerDependencies": {
-    "dotup-ts-node-skills": "^0.1.15",
+    "dotup-ts-node-skills": "^0.1.17",
     "ask-sdk-core": "^2.4.0",
     "ask-sdk-runtime": "^2.4.0",
-    "ask-sdk-model": "^1.11.2"
+    "ask-sdk-model": "^1.12.0"
   },
   "devDependencies": {
-    "dotup-ts-node-skills": "^0.1.15",
+    "dotup-ts-node-skills": "^0.1.17",
     "ask-sdk-core": "^2.4.0",
     "ask-sdk-runtime": "^2.4.0",
-    "ask-sdk-model": "^1.11.2",
+    "ask-sdk-model": "^1.12.0",
     "@types/jasmine": "^3.3.9",
     "gh-pages": "^2.0.1",
     "grunt": "^1.0.3",
@@ -65,7 +66,7 @@
     "jasmine-ts-console-reporter": "^3.1.1",
     "rimraf": "^2.6.3",
     "ts-node": "^8.0.2",
-    "tslint": "^5.13.0",
+    "tslint": "^5.13.1",
     "tslint-microsoft-contrib": "^6.0.0",
     "typedoc": "^0.14.2",
     "typescript": "^3.3.3"

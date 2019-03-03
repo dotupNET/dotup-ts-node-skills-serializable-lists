@@ -17,9 +17,3 @@ declare module 'dotup-ts-node-skills/dist/NodeSkill' {
     addListManager(listManager: ListManager): void;
   }
 }
-
-  // getSessionList<T>(listName: string): SkillNamedList<T> {
-  //   const lm = this.getRequestAttributes().ListManager;
-  //   if (lm !== undefined) {
-  //     return lm.GetSessionList<T>(listName);
-  //   }

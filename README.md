@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/dotupNET/dotup-ts-node-skills-serializable-lists.svg?branch=skill-template)](https://travis-ci.org/dotupNET/dotup-ts-node-skills-serializable-lists)
 
-# dotup-ts-node-skills-serializable-lists ( skill-template )
+# dotup-ts-node-skills-serializable-lists
 
 
 ## USAGE

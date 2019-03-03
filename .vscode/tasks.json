@@ -64,6 +64,13 @@
       "problemMatcher": [
         "$tsc"
       ]
+    },
+    {
+      "type": "grunt",
+      "task": "build",
+      "problemMatcher": [
+        "$tsc"
+      ]
     }
   ]
 }
